@@ -8,6 +8,8 @@ export default async () => {
   return {
     javascript,
     html,
-    css,
+    css:{
+      visible:false
+    }
   }
 }
