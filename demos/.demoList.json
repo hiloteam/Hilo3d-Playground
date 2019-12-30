@@ -10,7 +10,84 @@
     }, {
         "label": "Sphere",
         "src": "sphere"
+    },{
+        "label": "Custom",
+        "src": "custom"
+    },{
+        "label": "Dynamic",
+        "src": "dynamic"
+    },{
+        "label": "Morph",
+        "src": "morph"
+    },{
+        "label": "Merge",
+        "src": "merge"
+    },{
+        "label": "Instanced",
+        "src": "instanced"
     }]
+},{
+    "group": "PBR",
+    "src": "pbr",
+    "demos": [{
+        "label": "Boom Box",
+        "src": "boom-box"
+    }, {
+        "label": "Metal Rough Spheres",
+        "src": "metal-rough-spheres"
+    }, {
+        "label": "Polly",
+        "src": "polly"
+    }]
+},{
+    "group": "Light",
+    "src": "light",
+    "demos": [{
+        "label": "Point Light",
+        "src": "point-light"
+    }, {
+        "label": "Spot Light",
+        "src": "spot-light"
+    }, {
+        "label": "glTF Light",
+        "src": "gltf-light"
+    },{
+        "label": "SphereHarmonics3 Light",
+        "src": "sphere-harmonics3-light"
+    }]
+},{
+    "label": "Fog",
+    "src": "fog"
+},{
+    "label": "Compressed Texture",
+    "src": "compressed-texture"
+},{
+    "label": "Life Game",
+    "src": "life-game"
+},{
+    "label": "Mesh Picker",
+    "src": "mesh-picker"
+},{
+    "label": "Mouse Event",
+    "src": "mouse-event"
+},{
+    "label": "Raycast Node",
+    "src": "raycast-node"
+},{
+    "label": "Shader Material",
+    "src": "shader-material"
+},{
+    "label": "Transparent",
+    "src": "transparent"
+},{
+    "label": "Tween",
+    "src": "tween"
+},{
+    "label": "UV Map",
+    "src": "uv-map"
+},{
+    "label": "Wireframe",
+    "src": "wireframe"
 },{
     "group": "Post Process",
     "src": "post-process",
