@@ -1,0 +1,27 @@
+{
+  "name": "hilo3d-playground",
+  "version": "0.0.1",
+  "description": "Hilo3d playground",
+  "main": "index.js",
+  "scripts": {
+    "demo:dev": "demosify --serve",
+    "demo:prod": "demosify --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/06wj/Hilo3d-playground.git"
+  },
+  "keywords": [
+    "Hilo3d",
+    "WebGL"
+  ],
+  "author": "06wj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/06wj/Hilo3d-playground/issues"
+  },
+  "homepage": "https://github.com/06wj/Hilo3d-playground#readme",
+  "dependencies": {
+    "@ali/demosify": "^0.5.6"
+  }
+}

@@ -1,0 +1,27 @@
+[{
+    "label": "Quick Start",
+    "src": "quick-start"
+}, {
+    "group": "Geometry",
+    "src": "geometry",
+    "demos": [{
+        "label": "Box",
+        "src": "box"
+    }, {
+        "label": "Sphere",
+        "src": "sphere"
+    }]
+},{
+    "group": "Post Process",
+    "src": "post-process",
+    "demos": [{
+        "label": "Bloom",
+        "src": "bloom"
+    }, {
+        "label": "SSAO",
+        "src": "ssao"
+    }, {
+        "label": "Kernel Process",
+        "src": "kernel"
+    }]
+}]
