@@ -9,14 +9,14 @@ module.exports = {
           title: 'Hilo3d Playground'
         }
     },
-    themeFile: 'demos/theme.scss',
+    // themeFile: 'demos/theme.scss',
     staticFolder: 'static', // 配置静态资源文件路径，默认为 static
     demoList: '.demoList.json', // demoList配置文件的文件名，默认为.demoList.json
     name: 'Hilo3d Playground', // 配置Playground的标题 
     version: 'v1', // 配置Playground的版本号信息
     homePage: 'https://github.com/hiloteam/Hilo3d', // 配置Playground链接跳转的主页
     logo: '', // 配置Playground的LOGO，如果配置了LOGO，标题就不显示
-    boxTheme: 'github', // 配置代码编辑器的主题
+    boxTheme: 'monokai', // 配置代码编辑器的主题
     // 可选主题: active4d, allHallowsEve, amy, blackboard, brillianceBlack,
     // brillianceDull, chromeDevtools, cloudsMidnight, clouds, cobalt,
     // dawn, dreamweaver, eiffel, espressoLibre, github, idle, katzenmilch,
