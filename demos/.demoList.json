@@ -40,6 +40,16 @@
         "src": "polly"
     }]
 },{
+    "group": "glTF",
+    "src": "gltf",
+    "demos": [{
+        "label": "Clone Model",
+        "src": "clone"
+    }, {
+        "label": "Morph Animation",
+        "src": "morph"
+    }]
+},{
     "group": "Light",
     "src": "light",
     "demos": [{
