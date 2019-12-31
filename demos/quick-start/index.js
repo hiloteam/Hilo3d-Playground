@@ -13,10 +13,7 @@ var stage = new Hilo3d.Stage({
 var mesh = new Hilo3d.Mesh({
     geometry: new Hilo3d.BoxGeometry(),
     material: new Hilo3d.PBRMaterial({
-        baseColor:new Hilo3d.Color(0.832, 0.119, 0.093),
-        baseColorMap: new Hilo3d.LazyTexture({
-            src:'/image/UV_Grid_Sm.jpg'
-        })
+        baseColor:new Hilo3d.Color(0.832, 0.119, 0.093)
     }),
     onUpdate:function() {
         this.rotationY += 1;

@@ -1,15 +1,15 @@
-export default async () => {
-  const [javascript, html, css] = await Promise.all([
-    import('!raw-loader!./index.js'),
-    import('!raw-loader!~/index.html'),
-    import('!raw-loader!~/style.css'),
-  ]);
+import {
+    getCommonConfig,
+    getInitStageConfig
+} from '~/getConfig';
 
-  return {
-    javascript,
-    html,
-    css:{
-      visible:false
-    }
-  }
-}
+export default async () => {
+    const [javascript, commonConfig] = await Promise.all([
+        import ('!raw-loader!./index.js'),
+        getCommonConfig()
+    ]);
+
+    return Object.assign({
+        javascript: javascript
+    }, commonConfig);
+};
