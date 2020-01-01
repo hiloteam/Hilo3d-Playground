@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/06wj/Hilo3d-playground#readme",
   "dependencies": {
+    "hilo3d": "^1.13.46",
     "@demosify/core": "^0.5.5"
   }
 }
