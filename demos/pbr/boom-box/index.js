@@ -1,26 +1,26 @@
 initModel();
 
 function initModel(){
-var gltfURL = '/models/BoomBox/BoomBox.gltf';
+var gltfURL = './models/BoomBox/BoomBox.gltf';
 
 var loadQueue = new Hilo3d.LoadQueue([{
     type: 'CubeTexture',
     images: [
-        '/image/bakedDiffuse_01.jpg',
-        '/image/bakedDiffuse_02.jpg',
-        '/image/bakedDiffuse_03.jpg',
-        '/image/bakedDiffuse_04.jpg',
-        '/image/bakedDiffuse_05.jpg',
-        '/image/bakedDiffuse_06.jpg'
+        './image/bakedDiffuse_01.jpg',
+        './image/bakedDiffuse_02.jpg',
+        './image/bakedDiffuse_03.jpg',
+        './image/bakedDiffuse_04.jpg',
+        './image/bakedDiffuse_05.jpg',
+        './image/bakedDiffuse_06.jpg'
     ]
 }, {
     type: 'CubeTexture',
-    right: '/image/px.jpg',
-    left: '/image/nx.jpg',
-    top: '/image/py.jpg',
-    bottom: '/image/ny.jpg',
-    front: '/image/pz.jpg',
-    back: '/image/nz.jpg',
+    right: './image/px.jpg',
+    left: './image/nx.jpg',
+    top: './image/py.jpg',
+    bottom: './image/ny.jpg',
+    front: './image/pz.jpg',
+    back: './image/nz.jpg',
     magFilter: Hilo3d.constants.LINEAR,
     minFilter: Hilo3d.constants.LINEAR_MIPMAP_LINEAR
 },{
